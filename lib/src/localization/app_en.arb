@@ -1,0 +1,6 @@
+{
+  "appTitle": "screen_manager",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
