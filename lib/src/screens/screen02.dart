@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Pantalla02 extends StatefulWidget {
-  const Pantalla02({super.key});
+class Screen02 extends StatefulWidget {
+  const Screen02({super.key});
 
   @override
-  State<Pantalla02> createState() => _Pantalla02State();
+  State<Screen02> createState() => _Screen02State();
 }
 
-class _Pantalla02State extends State<Pantalla02> {
+class _Screen02State extends State<Screen02> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -18,7 +18,7 @@ class _Pantalla02State extends State<Pantalla02> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Tercera Pantalla'),
+            const Text('Volver a la pantalla de inicio'),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamedAndRemoveUntil(context, '/', (route) => false);

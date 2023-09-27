@@ -18,12 +18,12 @@ class _HomeState extends State<Home> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text('Bienvenidos a Navegacion entre pantallas Flutter.'),
+            const Text('Pantalla de inicio'),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, '/pantalla01');
+                Navigator.pushNamed(context, '/screen01');
               },
-              child: const Text('Primera Pantalla'),
+              child: const Text('Ir a la primera Pantalla'),
             ),
           ],
         ),
